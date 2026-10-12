@@ -1,0 +1,116 @@
+*{box-sizing:border-box}html{background:#0a0906}body{margin:0;background:radial-gradient(ellipse at 50% 0%,#171109 0%,#090906 55%);color:#fff6e2;font-family:Arial,Helvetica,sans-serif}.page{width:min(100%,690px);margin:auto;padding:20px 16px 42px}.stats{height:88px;background:linear-gradient(165deg,#2a2017,#130e09 80%);border:2px solid #4c3920;border-radius:34px;display:flex;align-items:center;justify-content:center;gap:13px;box-shadow:inset 0 2px 12px #0009;white-space:nowrap;font-size:22px}.stats b{font-size:34px;letter-spacing:-1px}.stats strong{color:#24db72;font-size:23px}.stats i{height:43px;border-left:1px solid #58432a;margin:0 12px}.online-dot{width:14px;height:14px;background:#ad3838;border-radius:50%;box-shadow:0 0 20px #d03c3c6b}.ticker{margin:32px -16px 0;overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}.ticker-track{display:flex;gap:16px;min-width:max-content;animation:drift 27s linear infinite}.tick{display:flex;align-items:center;gap:13px;background:linear-gradient(155deg,#302418,#1b140d);border:2px solid #48371f;border-radius:36px;padding:16px 20px;font-size:23px;font-weight:800;color:#c9bda8;box-shadow:inset 0 2px 10px #0009}.tick em{width:15px;height:15px;border-radius:50%;background:#22d971;box-shadow:0 0 16px #00fb83}.tick b{color:#28e477;font-size:26px}.sample-note{margin:6px 0 11px;text-align:right;color:#897861;font-size:10px;letter-spacing:.04em}.promo{width:100%;min-height:126px;display:flex;align-items:center;gap:20px;padding:18px 23px;background:linear-gradient(100deg,#12331e,#172815 78%,#30271d);border:2px solid #288d46;border-radius:42px;text-align:left;color:#fff;cursor:pointer;box-shadow:0 4px 24px #011b0b59}.gift{width:78px;height:78px;display:grid;place-items:center;flex:none;background:#264330;border-radius:22px;font-size:40px}.promo-content{display:flex;flex-direction:column;flex:1;min-width:0}.promo-label{font-weight:900;font-size:24px;letter-spacing:1px;white-space:nowrap}.promo-value{font-weight:1000;color:#1cdd68;font-size:55px;line-height:1.02;white-space:nowrap}.info{border-radius:50%;height:62px;width:62px;display:grid;place-items:center;flex:none;background:linear-gradient(#fff7d9,#ffc45b);color:#221805;font-family:Georgia,serif;font-size:36px;font-weight:bold;border:2px solid #fdf4cf}.timer{flex:none;font-size:28px;font-weight:900;color:#ff7779;background:#34251e;border:2px solid #e05051;padding:18px;border-radius:26px;font-variant-numeric:tabular-nums}.games{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px;row-gap:28px;margin:23px 8px}.card{min-width:0;position:relative;border:2px solid #66502a;border-top-color:#af8542;border-radius:41px;background:linear-gradient(145deg,#403021,#241b11 59%,#262014);padding:23px 15px 18px;display:flex;flex-direction:column;align-items:center;box-shadow:inset 0 2px 23px #e1a33214,0 2px 13px #0009}.card>img,.placeholder{width:86%;aspect-ratio:1/1;object-fit:cover;border-radius:29px;display:block;box-shadow:0 3px 12px #0b0909a8}.card h2{font-family:'Courier New',monospace;font-weight:1000;letter-spacing:.6px;text-align:center;font-size:26px;line-height:1.04;margin:22px 0 18px;min-height:51px;display:flex;align-items:center;justify-content:center;text-shadow:0 2px #0005}.action{width:100%;height:78px;border-radius:27px;background:linear-gradient(180deg,#ffeaa5 0%,#ffd47c 42%,#eaa047 100%);box-shadow:inset 0 3px 0 #fff1bd,0 9px 12px #a669182e;color:#675d58;text-decoration:none;font-size:26px;font-weight:900;letter-spacing:1px;display:flex;align-items:center;justify-content:center;gap:12px;transition:transform .16s,filter .16s}.action:hover{transform:translateY(-2px);filter:brightness(1.06)}.tag{position:absolute;right:10px;top:9px;border-radius:26px;padding:8px 13px;color:#16110b;font-size:19px;font-weight:900;z-index:1;box-shadow:0 0 25px currentColor}.hot{background:#ffe267}.new{background:#36e6f7}.vip{background:#ae4bef;color:white}.top{background:#ff4447;color:white}.telegram{display:grid;place-items:center;background:#25b4e3;border-radius:50%;width:35px;height:35px;color:#fff;font-size:25px;transform:rotate(-28deg)}.placeholder{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;font-family:'Courier New',monospace;font-weight:bold;font-size:24px}.placeholder span{font-size:100px}.tower{background:linear-gradient(155deg,#9ce7ec,#a27183 60%,#53321e)}.wheel{background:linear-gradient(155deg,#2195d8,#1e3964 50%,#5b1a44)}footer{text-align:center;color:#8a7a61;font-size:12px;margin-top:30px}.overlay[hidden]{display:none}.overlay{position:fixed;inset:0;display:grid;place-items:center;background:#000c;z-index:10;padding:18px}.dialog{position:relative;background:linear-gradient(145deg,#332517,#17120c);border:2px solid #b58b45;border-radius:30px;padding:32px 25px;max-width:420px;width:100%;text-align:center;box-shadow:0 20px 100px #000}.present{font-size:55px}.dialog h3{margin:15px 0;font-size:23px}.dialog strong{display:block;color:#25d66b;font-size:42px}.dialog p{line-height:1.5;color:#ddc8a7}.dialog small{display:block;color:#9b8a70;margin-top:18px}.close{position:absolute;top:14px;right:19px;color:#fff;border:0;background:none;font-size:35px;cursor:pointer}.copy{background:linear-gradient(#ffeca4,#eda445);border:0;border-radius:14px;padding:16px 25px;font-weight:900;cursor:pointer;font-size:16px}@keyframes drift{to{transform:translateX(-45%)}}@media(max-width:720px){.page{padding:12px 9px 28px}.stats{height:64px;border-radius:25px;font-size:13px;gap:7px}.stats b{font-size:22px}.stats strong{font-size:16px}.stats i{height:28px;margin:0 6px}.online-dot{width:9px;height:9px}.ticker{margin:16px -9px 0}.tick{font-size:14px;gap:8px;padding:9px 13px}.tick b{font-size:17px}.tick em{width:10px;height:10px}.promo{gap:9px;padding:10px 11px;min-height:83px;border-radius:25px}.gift{width:51px;height:51px;border-radius:15px;font-size:28px}.promo-label{font-size:13px;letter-spacing:0}.promo-value{font-size:clamp(20px,6.3vw,37px)}.info{width:39px;height:39px;font-size:26px}.timer{font-size:15px;border-radius:13px;padding:10px 7px}.games{gap:12px;margin:15px 3px}.card{border-radius:25px;padding:13px 8px 10px}.card>img,.placeholder{width:89%;border-radius:18px}.card h2{font-size:clamp(12px,3vw,19px);margin:12px 0 11px;min-height:41px}.action{height:46px;border-radius:18px;font-size:clamp(12px,3.8vw,18px);gap:6px}.telegram{width:24px;height:24px;font-size:16px}.tag{font-size:12px;top:5px;right:5px;padding:5px 8px}.placeholder{font-size:12px}.placeholder span{font-size:48px}}@media(max-width:360px){.info{display:none}.stats{gap:4px}.stats i{margin:0 2px}.promo-label{font-size:11px}.gift{width:40px;height:42px}.timer{font-size:13px}}
+
+/* Desktop preview matches the original narrow 690px centered layout. */
+@media(min-width:721px){
+ .page{padding:14px 8px 38px}
+ .stats{height:66px;border-radius:23px;font-size:15px;gap:10px}
+ .stats b{font-size:24px}.stats strong{font-size:18px}
+ .stats i{height:31px;margin:0 7px}.online-dot{width:10px;height:10px}
+ .ticker{margin:14px -8px 0}.ticker-track{gap:12px}
+ .tick{padding:9px 14px;font-size:15px;gap:9px}.tick b{font-size:17px}.tick em{width:11px;height:11px}
+ .sample-note{margin:4px 0 8px;font-size:9px}
+ .promo{min-height:97px;gap:13px;padding:12px 14px;border-radius:30px}
+ .gift{width:58px;height:58px;font-size:32px;border-radius:17px}
+ .promo-label{font-size:17px;letter-spacing:.5px}.promo-value{font-size:40px}
+ .info{width:46px;height:46px;font-size:29px}.timer{font-size:20px;padding:11px 10px;border-radius:17px}
+ .games{gap:15px;margin:18px 6px}
+ .card{padding:15px 10px 12px;border-radius:30px}
+ .card>img,.placeholder{width:85%;border-radius:23px}
+ .card h2{font-size:18px;margin:15px 0 12px;min-height:39px}
+ .action{height:57px;border-radius:20px;font-size:18px;gap:9px}
+ .tag{font-size:14px;padding:6px 10px;top:7px;right:7px}
+ .telegram{width:26px;height:26px;font-size:19px}
+ .placeholder span{font-size:70px}
+}
+
+/* Reference-sized desktop presentation: tighter overall width and proportions. */
+@media (min-width:721px){
+  .page{max-width:570px;padding:12px 7px 32px}
+  .stats{height:57px;font-size:13px;gap:8px}
+  .stats b{font-size:22px}.stats strong{font-size:16px}
+  .stats i{height:27px;margin:0 6px}
+  .ticker{margin:12px -7px 0}.tick{font-size:13px;padding:8px 12px}.tick b{font-size:15px}
+  .promo{min-height:83px;gap:10px;padding:10px 12px;border-radius:26px}
+  .gift{height:51px;width:51px;font-size:27px}
+  .promo-label{font-size:14px}.promo-value{font-size:34px}
+  .info{height:41px;width:41px;font-size:26px}
+  .timer{font-size:17px;padding:10px 8px;border-radius:14px}
+  .games{margin:15px 5px;gap:12px}
+  .card{padding:12px 9px 11px;border-radius:27px}
+  .card>img,.placeholder{width:85%;border-radius:20px}
+  .card h2{font-size:16px;margin:13px 0 10px;min-height:35px}
+  .action{height:49px;font-size:16px;border-radius:17px}
+  .tag{font-size:12px;padding:5px 9px}
+}
+
+/* Desktop size refinement: compact central column like the reference. */
+@media (min-width:721px) {
+  .page { max-width:510px; padding:11px 6px 30px; }
+  .stats { height:51px; font-size:12px; gap:7px; }
+  .stats b { font-size:20px; } .stats strong { font-size:15px; }
+  .stats i { height:25px; margin:0 5px; }
+  .ticker { margin:11px -6px 0; } .ticker-track { gap:10px; }
+  .tick { font-size:12px; padding:7px 11px; gap:7px; }
+  .tick b { font-size:14px; } .tick em { width:9px; height:9px; }
+  .sample-note { margin:3px 0 7px; }
+  .promo { min-height:74px; padding:9px 10px; gap:9px; border-radius:24px; }
+  .gift { width:45px; height:45px; font-size:25px; }
+  .promo-label { font-size:12px; } .promo-value { font-size:30px; }
+  .info { height:36px; width:36px; font-size:23px; }
+  .timer { font-size:15px; padding:9px 7px; border-radius:12px; }
+  .games { margin:14px 4px; gap:11px; }
+  .card { padding:11px 8px 10px; border-radius:25px; }
+  .card>img,.placeholder { width:85%; border-radius:18px; }
+  .card h2 { font-size:14px; min-height:31px; margin:11px 0 9px; }
+  .action { height:44px; font-size:14px; border-radius:15px; }
+  .tag { font-size:11px; padding:4px 8px; }
+}
+
+
+/* Floating jackpot popup */
+.jackpot-toast{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);width:min(calc(100vw - 32px),420px);display:flex;align-items:center;gap:16px;padding:18px 24px;background:linear-gradient(90deg,rgba(110,39,41,.92),rgba(94,48,33,.88) 55%,rgba(73,48,37,.82));border:2px solid #ff4d58;border-radius:28px;box-shadow:0 14px 40px rgba(0,0,0,.42),0 0 0 1px rgba(255,123,123,.16) inset,0 0 26px rgba(255,78,78,.18);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);z-index:8}
+.jackpot-toast::before{content:'';position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:linear-gradient(180deg,rgba(255,255,255,.08),transparent 36%)}
+.jackpot-flag{position:relative;z-index:1;width:56px;height:56px;flex:none;border-radius:18px;display:grid;place-items:center;background:rgba(255,255,255,.12);box-shadow:inset 0 1px 1px rgba(255,255,255,.12);font-size:32px}
+.jackpot-copy{position:relative;z-index:1;display:flex;flex-direction:column;min-width:0}
+.jackpot-id{font-size:15px;font-weight:800;letter-spacing:.03em;color:#f8f0e2}
+.jackpot-amount{font-size:22px;line-height:1.05;font-weight:1000;color:#ff666e;letter-spacing:.01em;text-shadow:0 1px 0 rgba(0,0,0,.25)}
+@media (max-width:720px){.jackpot-toast{bottom:14px;width:min(calc(100vw - 18px),340px);padding:14px 18px;gap:12px;border-radius:22px}.jackpot-flag{width:46px;height:46px;border-radius:14px;font-size:26px}.jackpot-id{font-size:13px}.jackpot-amount{font-size:17px}}
+@media (min-width:721px){.jackpot-toast{width:min(calc(100vw - 32px),408px);bottom:16px}.jackpot-amount{font-size:20px}}
+
+/* Reference-inspired promo dialog, top centered over dimmed page */
+.overlay{display:flex;align-items:flex-start;justify-content:center;padding:clamp(22px, 8vh, 100px) 12px 24px;background:rgba(0,0,0,.42);backdrop-filter:blur(1.5px);-webkit-backdrop-filter:blur(1.5px);z-index:20}
+.dialog{width:min(100%,500px);max-width:500px;padding:16px 18px 17px;border:1.5px solid #9f7940;border-radius:24px;background:linear-gradient(150deg,rgba(60,42,23,.97),rgba(16,12,9,.98) 86%);box-shadow:0 16px 55px #000c,inset 0 1px 4px #ffdd9930;text-align:left}
+.dialog-top{display:flex;align-items:flex-start;gap:14px;padding-right:34px}
+.present{display:grid;place-items:center;flex:none;width:54px;height:54px;border-radius:17px;background:#634a28;font-size:30px}
+.dialog-heading h3{margin:0 0 7px;font-size:21px;line-height:1.15;color:#ffe09a;font-weight:900}
+.dialog-heading p{font-size:14px;color:#f7e4c3;line-height:1.42;margin:0}
+.dialog .close{top:13px;right:14px;display:grid;place-items:center;width:36px;height:36px;border:1px solid #75695e;border-radius:50%;background:#403a35;color:#fff;font-size:26px;line-height:1}
+.coupon{margin:15px 34px 0 68px;border:1.5px solid #26783b;border-radius:15px;background:linear-gradient(110deg,#15311b,#192f1a);padding:11px 12px;display:flex;align-items:center;gap:12px;justify-content:space-between}
+.coupon-text{display:flex;flex-direction:column;gap:6px;min-width:0}
+.coupon-text span{font-size:11px;color:#d6f3d7;font-weight:800;letter-spacing:.12em}
+.coupon-text strong{font-size:22px;letter-spacing:.09em;color:#24db75;line-height:1.05}
+.dialog .copy{border-radius:13px;background:linear-gradient(#2be17c,#00ba60);padding:9px 13px;font-size:13px;color:#07190e;box-shadow:0 0 13px #12d96646;white-space:nowrap}
+.promo-disclaimer{display:block;margin:10px 34px 0 68px;font-size:10px;color:#aa9878;line-height:1.25}
+@media(max-width:520px){.overlay{padding:22px 10px}.dialog{padding:14px 12px 15px;border-radius:20px}.present{width:44px;height:44px;font-size:25px}.dialog-top{gap:10px}.dialog-heading h3{font-size:18px}.dialog-heading p{font-size:12px}.coupon{margin:14px 5px 0 54px;padding:9px}.coupon-text strong{font-size:17px}.promo-disclaimer{margin:8px 5px 0 54px}.dialog .close{width:29px;height:29px;font-size:22px;right:10px;top:10px}}
+
+.leave-site{display:block;margin:12px auto 0;padding:9px 16px;background:transparent;border:0;color:#d6c6b0;text-decoration:underline;cursor:pointer;font-size:13px}
+.leave-site[hidden]{display:none}
+
+/* Transient bottom toast: hidden until first 3-second trigger. */
+.jackpot-toast{opacity:0;visibility:hidden;pointer-events:none;transform:translate(-50%,18px);transition:opacity .3s ease,transform .3s ease,visibility .3s}
+.jackpot-toast.is-visible{opacity:1;visibility:visible;transform:translate(-50%,0)}
+.jackpot-demo{color:#f4c3bd;font-size:10px;margin-top:4px;font-weight:500;letter-spacing:.02em}
+@media(prefers-reduced-motion:reduce){.jackpot-toast{transition:none}}
+
+/* Live-indicator animation and faster activity ticker */
+.online-dot { position:relative; flex-shrink:0; animation: online-pulse 1.7s ease-in-out infinite; }
+@keyframes online-pulse { 0%,100% { opacity:1; box-shadow:0 0 0 0 rgba(220,52,58,.55),0 0 12px rgba(220,52,58,.55); transform:scale(1); } 50% { opacity:.8; box-shadow:0 0 0 7px rgba(220,52,58,0),0 0 19px rgba(220,52,58,.75); transform:scale(1.14); } }
+.ticker-track { animation-duration: 7s; }
+@media (prefers-reduced-motion:reduce) { .online-dot {animation:none;} .ticker-track {animation-duration:45s;} }
+
+/* Seamless ticker: two pixel-identical groups, shift precisely one group width. */
+.ticker-track{display:flex;width:max-content;min-width:0;gap:0;animation:seamless-ticker 7s linear infinite;will-change:transform}
+.ticker-group{display:flex;flex:none;gap:10px;padding-right:10px;width:max-content}
+.ticker-group .tick{flex:none}
+@keyframes seamless-ticker{from{transform:translate3d(0,0,0)}to{transform:translate3d(-50%,0,0)}}
+@media(prefers-reduced-motion:reduce){.ticker-track{animation-duration:45s}}
