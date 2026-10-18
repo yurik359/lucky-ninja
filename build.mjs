@@ -7,7 +7,7 @@ process.chdir(fileURLToPath(new URL(".", import.meta.url)));
 if (existsSync(".env")) process.loadEnvFile(".env");
 
 const config = {};
-for (const key of ["LINK_PLAY", "LINK_SIGNALS"]) {
+for (const key of ["LINK_PLAY", "LINK_SIGNALS","LINK_TOWER"]) {
   const value = (process.env[key] || "").trim();
   if (value) {
     const url = new URL(value);
