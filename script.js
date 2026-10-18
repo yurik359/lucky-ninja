@@ -5,7 +5,7 @@ const destinations = {
   pickaxe: links.LINK_PLAY,
   mines: links.LINK_SIGNALS,
   aviator: links.LINK_SIGNALS,
-  tower: links.LINK_PLAY,
+  tower: links.LINK_TOWER,
   wheel: links.LINK_PLAY,
 };
 document.querySelectorAll("[data-dest]").forEach((a) => {
