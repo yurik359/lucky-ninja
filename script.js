@@ -1,4 +1,4 @@
-// Public destination URLs generated from .env by npm run build.
+// Public destination URLs generated from .env by npm run build
 const links = window.LUCKY_NINJA_CONFIG || {};
 const destinations = {
   tappy: links.LINK_PLAY,
