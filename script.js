@@ -1,11 +1,12 @@
-// Replace # with your real, compliant destination URLs before publishing.
+// Public destination URLs generated from .env by npm run build.
+const links = window.LUCKY_NINJA_CONFIG || {};
 const destinations = {
-  tappy: "#",
-  pickaxe: "#",
-  mines: "#",
-  aviator: "#",
-  tower: "#",
-  wheel: "#",
+  tappy: links.LINK_PLAY,
+  pickaxe: links.LINK_PLAY,
+  mines: links.LINK_SIGNALS,
+  aviator: links.LINK_SIGNALS,
+  tower: links.LINK_PLAY,
+  wheel: links.LINK_PLAY,
 };
 document.querySelectorAll("[data-dest]").forEach((a) => {
   const url = destinations[a.dataset.dest];
@@ -16,7 +17,7 @@ document.querySelectorAll("[data-dest]").forEach((a) => {
   } else {
     a.addEventListener("click", (e) => {
       e.preventDefault();
-      alert("Add a destination in script.js before publishing.");
+      alert("Add the destination to .env and rebuild the site before publishing.");
     });
   }
 });
